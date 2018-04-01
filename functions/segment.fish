@@ -1,0 +1,1 @@
+/Users/singhpdz/.config/fisherman/segment/segment.fish
