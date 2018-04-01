@@ -2,7 +2,7 @@ set -x LANG en_US.UTF-8
 set -x NVIM_TUI_ENABLE_CURSOR_SHAPE 1  # beam cursor
 # set -x EDITOR "env HOME=/tmp/blah subl3 --new-window --wait"
 
-set -x FISH_CONFIG_DIR ~/nix-vm/fish-config
+set -x FISH_CONFIG_DIR ~/.config/fish
 set -x FISH_CONFIG_FILE $FISH_CONFIG_DIR/config.fish
 set -x NIX_CONFIG_FILE /etc/nixos/configuration.nix
 
