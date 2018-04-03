@@ -10,6 +10,8 @@ set -x NIX_CONFIG_FILE /etc/nixos/configuration.nix
 . $FISH_CONFIG_DIR/fish-behavior.fish
 source-all $FISH_CONFIG_DIR/interactive/*
 
+alias csdiff="$FISH_CONFIG_DIR/bin/csdiff"
+
 # setup abbreviations
 abbr -a ll grc ls -alFh
 abbr -a rmr rm -r
